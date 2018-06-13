@@ -1,7 +1,3 @@
----
-description: '摘自：http://tengine.taobao.org/book/index.html'
----
-
 # 附录B 常用API
 
 ### B.1 字符串操作

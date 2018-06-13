@@ -1,7 +1,3 @@
----
-description: '摘自：http://tengine.taobao.org/book/index.html'
----
-
 # upstream模块
 
 ### upstream模块 \(100%\)

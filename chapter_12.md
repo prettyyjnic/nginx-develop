@@ -1,7 +1,3 @@
----
-description: '摘自：http://tengine.taobao.org/book/index.html'
----
-
 # nginx的upstream原理解析
 
 ### 无缓冲的处理流程

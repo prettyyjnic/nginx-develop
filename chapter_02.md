@@ -1,7 +1,3 @@
----
-description: '摘自：http://tengine.taobao.org/book/index.html'
----
-
 # nginx平台初探
 
 ## 初探nginx架构\(100%\)

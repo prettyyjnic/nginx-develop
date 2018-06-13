@@ -1,7 +1,3 @@
----
-description: '摘自：http://tengine.taobao.org/book/index.html'
----
-
 # 其他模块
 
 Nginx的模块种类挺多的，除了HTTP模块，还有一些核心模块和mail系列模块。核心模块主要是做一些基础功能，比如Nginx的启动初始化，event处理机制，错误日志的初始化，ssl的初始化，正则处理初始化。

@@ -1,7 +1,3 @@
----
-description: '摘自：http://tengine.taobao.org/book/index.html'
----
-
 # 过滤模块
 
 ### 过滤模块简介 \(90%\)

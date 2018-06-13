@@ -1,7 +1,3 @@
----
-description: '摘自：http://tengine.taobao.org/book/index.html'
----
-
 # 附录A 编码风格 \(100%\)
 
 ### Nginx代码风格图示 \(100%\)
