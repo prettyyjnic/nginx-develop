@@ -7,6 +7,7 @@
 * [过滤模块](guo-lv-mo-kuai.md)
 * [upstream模块](upstream-mo-kuai.md)
 * [其他模块](qi-ta-mo-kuai.md)
+* [模块开发高级篇\(30%\)](mo-kuai-kai-fa-gao-ji-pian-30.md)
 * [高性能服务器设计](gao-xing-neng-fu-wu-qi-she-ji.md)
 * [nginx架构详解](nginx-jia-gou-xiang-jie.md)
 
