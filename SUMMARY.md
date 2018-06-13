@@ -1,10 +1,7 @@
 # Table of contents
 
 * [Nginx开发从入门到精通](README.md)
-* [背景介绍](bei-jing-jie-shao/README.md)
-  * [nginx历史](bei-jing-jie-shao/nginx-li-shi.md)
-  * [使用简介](bei-jing-jie-shao/shi-yong-jian-jie.md)
-  * [nginx特点介绍](bei-jing-jie-shao/nginx-te-dian-jie-shao.md)
+* [背景介绍](bei-jing-jie-shao.md)
 * [nginx平台初探](nginx-ping-tai-chu-tan.md)
 * [handler模块](handler-mo-kuai.md)
 * [过滤模块](guo-lv-mo-kuai.md)
