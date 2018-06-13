@@ -12,4 +12,5 @@
 * [nginx架构详解](nginx-jia-gou-xiang-jie.md)
 * [nginx基础设施](nginx-ji-chu-she-shi.md)
 * [nginx的启动阶段 \(30%\)](nginx-de-qi-dong-jie-duan-30.md)
+* [nginx的请求处理阶段 \(90%\)](nginx-de-qing-qiu-chu-li-jie-duan-90.md)
 
