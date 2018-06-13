@@ -1,3 +1,7 @@
+---
+description: '摘自：http://tengine.taobao.org/book/index.html'
+---
+
 # 背景介绍
 
 ### nginx历史
