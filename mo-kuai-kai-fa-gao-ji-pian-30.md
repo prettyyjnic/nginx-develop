@@ -1,3 +1,7 @@
+---
+description: '摘自：http://tengine.taobao.org/book/index.html'
+---
+
 # 模块开发高级篇\(30%\)
 
 ### 变量\(80%\)

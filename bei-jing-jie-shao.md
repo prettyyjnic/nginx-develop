@@ -1,5 +1,5 @@
 ---
-description: '摘自：http://tengine.taobao.org/book/index.html'
+description: 摘自：《深入理解Nginx模块开发与架构解析第2版》、百度百科
 ---
 
 # 背景介绍

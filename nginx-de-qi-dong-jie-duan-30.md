@@ -1,3 +1,7 @@
+---
+description: '摘自：http://tengine.taobao.org/book/index.html'
+---
+
 # nginx的启动阶段 \(30%\)
 
 ### 概述 \(100%\)

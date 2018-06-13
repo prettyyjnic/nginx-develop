@@ -1,3 +1,7 @@
+---
+description: '摘自：http://tengine.taobao.org/book/index.html'
+---
+
 # nginx的请求处理阶段 \(90%\)
 
 

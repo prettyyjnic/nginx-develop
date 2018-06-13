@@ -1,3 +1,7 @@
+---
+description: '摘自：http://tengine.taobao.org/book/index.html'
+---
+
 # 高性能服务器设计
 
 ### c10k问题

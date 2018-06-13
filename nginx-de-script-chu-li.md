@@ -1,3 +1,7 @@
+---
+description: '摘自：http://tengine.taobao.org/book/index.html'
+---
+
 # nginx的script处理
 
 ### 正则表达式[¶](http://tengine.taobao.org/book/chapter_14.html#id1)

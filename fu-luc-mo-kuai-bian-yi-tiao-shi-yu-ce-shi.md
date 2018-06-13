@@ -1,3 +1,7 @@
+---
+description: '摘自：http://tengine.taobao.org/book/index.html'
+---
+
 # 附录C 模块编译，调试与测试
 
 ### C.1 编译与安装
