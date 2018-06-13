@@ -16,4 +16,5 @@
 * [nginx的upstream原理解析](nginx-de-upstream-yuan-li-jie-xi.md)
 * [nginx的script处理](nginx-de-script-chu-li.md)
 * [附录A 编码风格 \(100%\)](fu-lua-bian-ma-feng-ge-100.md)
+* [附录B 常用API](fu-lub-chang-yong-api.md)
 
