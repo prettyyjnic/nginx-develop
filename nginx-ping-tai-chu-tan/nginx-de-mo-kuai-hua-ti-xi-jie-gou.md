@@ -65,9 +65,9 @@ worker进程中，ngx\_worker\_process\_cycle\(\)函数就是这个无限循环�
 
 当nginx读取到一个HTTP Request的header的时候，nginx首先查找与这个请求关联的虚拟主机的配置。如果找到了这个虚拟主机的配置，那么通常情况下，这个HTTP Request将会经过以下几个阶段的处理（phase handlers）：
 
-| NGX\_HTTP\_POST\_READ\_PHASE: |  |
+| NGX\_HTTP\_POST\_READ\_PHASE: | 读取请求内容阶段 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|   | 读取请求内容阶段 |
+|  |  |
 | NGX\_HTTP\_SERVER\_REWRITE\_PHASE: |  |
 |   | Server请求地址重写阶段 |
 | NGX\_HTTP\_FIND\_CONFIG\_PHASE: |  |
