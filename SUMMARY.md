@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Nginx开发从入门到精通](README.md)
-* [背景介绍](chapter_01.md.md)
+* [背景介绍](chapter_01.md)
 * [nginx平台初探](chapter_02.md)
 * [handler模块](chapter_03.md)
 * [过滤模块](chapter_04.md)
