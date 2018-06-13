@@ -1,10 +1,22 @@
-# nginx的script处理
+# nginx的upstream原理解析
 
-### 正则表达式[¶](http://tengine.taobao.org/book/chapter_14.html#id1)
+### 无缓冲的处理流程
 
-### 变量
+### 带缓冲的处理流程
 
-### 复杂变量
+### subrequest访问upstream的处理流程
 
-### if的处理
+### 负载均衡算法
+
+#### round-robin算法
+
+#### 基于ip的hash算法
+
+### upstream缓存机制
+
+### 常用upstream模块分析
+
+#### proxy模块
+
+#### fastcgi模块
 
