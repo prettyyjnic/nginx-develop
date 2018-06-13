@@ -10,6 +10,7 @@
   * [nginx基础概念](nginx-ping-tai-chu-tan/nginx-ji-chu-gai-nian.md)
   * [基本数据结构](nginx-ping-tai-chu-tan/ji-ben-shu-ju-jie-gou.md)
   * [nginx的配置系统](nginx-ping-tai-chu-tan/nginx-de-pei-zhi-xi-tong.md)
+  * [nginx的模块化体系结构](nginx-ping-tai-chu-tan/nginx-de-mo-kuai-hua-ti-xi-jie-gou.md)
 * [handler模块](handler-mo-kuai.md)
 * [过滤模块](guo-lv-mo-kuai.md)
 * [upstream模块](upstream-mo-kuai.md)
