@@ -1303,29 +1303,19 @@ worker进程中，ngx\_worker\_process\_cycle\(\)函数就是这个无限循环�
 
 当nginx读取到一个HTTP Request的header的时候，nginx首先查找与这个请求关联的虚拟主机的配置。如果找到了这个虚拟主机的配置，那么通常情况下，这个HTTP Request将会经过以下几个阶段的处理（phase handlers）：
 
-| NGX\_HTTP\_POST\_READ\_PHASE: |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|   | 读取请求内容阶段 |
-| NGX\_HTTP\_SERVER\_REWRITE\_PHASE: |  |
-|   | Server请求地址重写阶段 |
-| NGX\_HTTP\_FIND\_CONFIG\_PHASE: |  |
-|   | 配置查找阶段: |
-| NGX\_HTTP\_REWRITE\_PHASE: |  |
-|   | Location请求地址重写阶段 |
-| NGX\_HTTP\_POST\_REWRITE\_PHASE: |  |
-|   | 请求地址重写提交阶段 |
-| NGX\_HTTP\_PREACCESS\_PHASE: |  |
-|   | 访问权限检查准备阶段 |
-| NGX\_HTTP\_ACCESS\_PHASE: |  |
-|   | 访问权限检查阶段 |
-| NGX\_HTTP\_POST\_ACCESS\_PHASE: |  |
-|   | 访问权限检查提交阶段 |
-| NGX\_HTTP\_TRY\_FILES\_PHASE: |  |
-|   | 配置项try\_files处理阶段 |
-| NGX\_HTTP\_CONTENT\_PHASE: |  |
-|   | 内容产生阶段 |
-| NGX\_HTTP\_LOG\_PHASE: |  |
-|   | 日志模块处理阶段 |
+PHASE | 阶段
+---|---
+NGX\_HTTP\_POST\_READ\_PHASE | 读取请求内容阶段
+NGX\_HTTP\_SERVER\_REWRITE\_PHASE | Server请求地址重写阶段
+NGX\_HTTP\_FIND\_CONFIG\_PHASE | 配置查找阶段
+NGX\_HTTP\_REWRITE\_PHASE | Location请求地址重写阶段 
+NGX\_HTTP\_POST\_REWRITE\_PHASE | 请求地址重写提交阶段 
+NGX\_HTTP\_PREACCESS\_PHASE | 访问权限检查准备阶段 
+NGX\_HTTP\_ACCESS\_PHASE | 访问权限检查阶段 
+NGX\_HTTP\_POST\_ACCESS\_PHASE | 访问权限检查提交阶段 
+NGX\_HTTP\_TRY\_FILES\_PHASE | 配置项try\_files处理阶段 
+NGX\_HTTP\_CONTENT\_PHASE | 内容产生阶段 
+NGX\_HTTP\_LOG\_PHASE | 日志模块处理阶段 
 
 在内容产生阶段，为了给一个request产生正确的响应，nginx必须把这个request交给一个合适的content handler去处理。如果这个request对应的location在配置文件中被明确指定了一个content handler，那么nginx就可以通过对location的匹配，直接找到这个对应的handler，并把这个request交给这个content handler去处理。这样的配置指令包括像，perl，flv，proxy\_pass，mp4等。
 
