@@ -5,7 +5,7 @@
 gitbook 地址： [https://cocktail.gitbook.io/nginx-develop/](https://cocktail.gitbook.io/nginx-develop/)
 
 
-本书的著作权归作者淘宝核心系统服务器平台组成员所有。你可以：
+你可以：
 
 - 下载、保存以及打印本书
 - 网络链接、转载本书的部分或者全部内容，但是必须在明显处提供读者访问本书发布网站的链接
