@@ -708,7 +708,7 @@ NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_http_hello_module.c"
 
 对于模块的编译，nginx并不像apache一样，提供了单独的编译工具，可以在没有apache源代码的情况下来单独编译一个模块的代码。nginx必须去到nginx的源代码目录里，通过configure指令的参数，来进行编译。下面看一下hello module的configure指令：
 
-./configure –prefix=/usr/local/nginx-1.3.1 –add-module=/home/jizhao/open\_source/book\_module
+./configure –prefix=/usr/local/nginx-1.13.9 --add-module=/home/jizhao/open\_source/book\_module 
 
 我写的这个示例模块的代码和config文件都放在/home/jizhao/open\_source/book\_module这个目录下。所以一切都很明了，也没什么好说的了。
 
